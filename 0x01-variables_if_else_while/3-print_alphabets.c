@@ -1,25 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - prints the sign of the number
+ * main - Entry point
  *
- * Return: 0
-*/
+ * Return: Always 0 (success)
+ */
+
 int main(void)
 {
-char alphabet = 'a';	
-char alUp = 'A';
-
-while (alphabet <= 'z')
+char alphabet_lower = 'a';
+char alphabet_upper = 'A';
+while (alphabet_lower <= 'z')
 {
-	putchar(alphabet);
-	alphabet++;
+	putchar(alphabet_lower);
+	alphabet_lower++;
 }
-while (alUp <= 'Z')
+while (alphabet_upper <= 'Z')
 {
-        putchar(alUp);
-	alUp++;
+	putchar(alphabet_upper);
+	alphabet_upper++;
 }
 putchar('\n');
 return (0);
