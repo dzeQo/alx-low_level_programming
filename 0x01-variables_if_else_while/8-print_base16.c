@@ -3,20 +3,22 @@
  * main - prints the sign of the number
  *
  * Return: 0
-*/
-int main() {
-int num;
+ */
+int main(void)
+{
+	int num;
 
-for (num = 0; num < 16; num++) {
-if (num < 10)
-{
-	putchar('0' + num);
-} 
-else
-{
-	putchar('a' + num - 10);
-}
-}
+	for (num = 0; num < 16; num++)
+	{
+		if (num < 10)
+		{
+			putchar('0' + num);
+		} 
+		else
+		{
+			putchar('a' + num - 10);
+		}
+	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
