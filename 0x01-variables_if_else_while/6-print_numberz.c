@@ -5,10 +5,10 @@
  * main - prints the sign of the number
  *
  * Return: 0
-*/
+ */
 int main(void)
 {
-	char nbr = 0;
+	int nbr = 0;
 
 	while (nbr < 10)
 	{
