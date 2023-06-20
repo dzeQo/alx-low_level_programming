@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  *
  *
  *
@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i <= 1024; i++)
 	{
-		if((i % 3) == 0 || (i % 5) == 0)
+		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
 	}
 	printf("%d\n", sum);
