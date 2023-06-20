@@ -4,6 +4,7 @@
 /**
  * main - check the code
  *
+ * print_alphabet - print letters in lowercase
  * Return: Always 0.
  */
 int main(void)
@@ -14,7 +15,8 @@ int main(void)
 
 		while (alph <= 'z')
 		{
-			_putchar('alph');
+			_putchar(alph);
+			alph++;
 		}
 	}
 	_putchar('\n');
