@@ -2,9 +2,9 @@
 #include "main.h"
 
 /*
- *print_alphabet_x10 - display the alphabets in lowercase 10 times .
+ *print_alphabet_x10 - display the alphabets in lowercase 10 times.
  *
- *Return : 0 always success 
+ *Return : 0 always success
  */
 void print_alphabet_x10(void)
 {
@@ -19,5 +19,6 @@ void print_alphabet_x10(void)
 			_putchar(alp);
 		}
 		_putchar('\n');
+		a++;
 	}
 }
