@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include "main.h"
 
-/*
+/**
  * print_alphabet_x10 - print alphabet in lowercase 10 times
  *
- * Return : 0 always success
+ * Return: Always 0.
  */
+
 void print_alphabet_x10(void)
 {
 	int a = 0;
