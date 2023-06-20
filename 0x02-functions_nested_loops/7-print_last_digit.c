@@ -4,9 +4,9 @@
 /**
  * print_last_digit - print the  last digits of a number
  *
- * @n: an integer number  
+ * @n: an integer number
  *
- * Return : the lase digit
+ * Return: the lase digit
  */
 int print_last_digit(int n)
 {
