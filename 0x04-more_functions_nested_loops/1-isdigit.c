@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - return 1 if the character is a uppercase, and 0 otherwise.
+ * _isdigit - return 1 if the character is a uppercase, and 0 otherwise.
  * @c: the number to be checked
  * Return: Always 0.
  */
