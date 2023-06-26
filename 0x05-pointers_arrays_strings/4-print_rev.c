@@ -1,25 +1,23 @@
 #include "main.h"
 
-/*
- * print_rev - print the string revesed
- *
- * @c: pointer ro string
- *
- * return: the reversed string
+/**
+ *  print_rev - print string to stdout in reverse.
+ * @s: pointer to string.
+ * Return: Always 0.
  */
 
-void print_rev(char *c)
+void print_rev(char *s)
 {
 	int len = 0;
 	int i;
 
-	while (c[len])
+	while (s[len] != '\0')
 	{
 		len++;
 	}
-	for (i = len-1; i <= 0; i++)
+	for (i = len - 1; i >= 0; i--)
 	{
-		_putchar(c[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
