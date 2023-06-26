@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _strlen - return the sizeof a string
+ * _strlen - the sizeof a string
  *
  * @s: the string to be checked
  *
@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 	int i = 0;
 
-	while(s[i])
+	while (s[i])
 	{
 		i++;
 	}
