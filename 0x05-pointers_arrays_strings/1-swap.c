@@ -5,7 +5,6 @@
  *
  * @a: the first number
  * @b: the second number
- * 
  * Return: 0 success .
  */
 void swap_int(int *a, int *b)
