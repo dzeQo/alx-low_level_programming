@@ -6,7 +6,7 @@
  * @x: the first number
  * @y: the second number
  *
- * return: return the result of teh recursion function
+ * return: the result of teh recursion function
  */
 int _pow_recursion(int x, int y)
 {
