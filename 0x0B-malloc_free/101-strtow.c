@@ -37,9 +37,9 @@ char **strtow(char *str)
 	if (words == NULL)
 		return NULL;
 
-	i = 0;
 	int word_index = 0;
 
+	i = 0;
 	while (i < len)
 	{
 		while (i < len && str[i] == ' ')
@@ -68,4 +68,13 @@ char **strtow(char *str)
 			strncpy(word, str + start, word_len);
 			word[word_len] = '\0';
 
+			words[word_index] = word;
+			word_index++;
+		}
+	}
+
+	words[word_index] = NULL;
+
+	return words;
+}
 
