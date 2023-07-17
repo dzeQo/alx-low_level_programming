@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - entry point..
+ * main - check the code
  *
- * return: the  result  of programm.
+ * Return: Always 0.
  */
 int main(void)
 {
-	printf("%s\n",__FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
