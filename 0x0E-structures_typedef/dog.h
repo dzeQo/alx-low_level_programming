@@ -1,4 +1,3 @@
-#include<stdio.h>
 #ifndef MYFILE_H
 #define MYFILE_H
 /**
@@ -13,3 +12,5 @@ struct dog
 	float *age;
 	char *owner;
 };
+
+#endif
