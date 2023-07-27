@@ -1,9 +1,10 @@
 #include "lists.h"
+
 /**
- *add_node- adds a new node as the 1st node.
- * @head: ptr to a ptr to list_t
- * @str: str
- * Return: the addr of the new element.
+ * add_node - adds a new node as the first node.
+ * @head: pointer to a pointer to list_t
+ * @str: string to be added
+ * Return: the address of the new element.
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -28,10 +29,11 @@ list_t *add_node(list_t **head, const char *str)
 	}
 	return (new);
 }
+
 /**
- * _strlen - func.
- * @str: str.
- * Return: len.
+ * _strlen - calculates the length of a string.
+ * @str: string.
+ * Return: length of the string.
  */
 int _strlen(const char *str)
 {
@@ -43,3 +45,4 @@ int _strlen(const char *str)
 	}
 	return (i);
 }
+
